@@ -1,0 +1,71 @@
+input{
+    border-radius: 17px; 
+    outline: none;
+    border: 1px solid rgb(192, 192, 192);
+    text-align: right;
+}
+.nl{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 134px;
+    left: 180px;
+}
+.nl .nl3{
+    width: 58px;
+    margin: 0 15px;
+}
+.nl .nl2{
+    width: 58px;
+    margin: 0 10px;
+}
+.nl .nl1{
+    width: 58px;
+    margin: 0 10px;
+}
+
+option{
+    cursor: pointer;
+    margin-bottom: 6px;
+    background-color: rgb(216, 210, 210);
+  
+}
+#co ,#kd{
+    border-radius: 17px;
+    height: 35px;
+    width: 153px;
+    outline: none;
+    border: 1px solid rgb(192, 192, 192);
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    margin: 0 14px;
+    
+}
+.c7{
+    color:blue;
+    
+}
+.btn .total{
+    margin: 0 10px;
+    width: 94px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: #fff;
+    border: 1px solid rgb(243, 84, 84);
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0 0 5px 0 rgb(243, 130, 130);
+
+    color:rgb(79, 79, 230);
+}
+.back:hover{
+    outline:3px rgb(243, 130, 130);
+}
+.fc:focus{
+    box-shadow: 0 0 5px 0 rgb(130, 160, 243);
+    border: 0;
+    outline: 0;
+}

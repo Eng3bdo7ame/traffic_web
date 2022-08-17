@@ -1,0 +1,425 @@
+body{
+   
+    padding: 0;
+    margin: 0 ;
+  
+}
+.container{
+    width: 90%;
+    margin: auto;
+    
+}
+/* start header */
+.header{
+    background-color: #333;
+    height: 61px;
+    margin: 0 0;
+    border-bottom: 2px solid red;
+    
+}
+.header div .head-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 100%;
+    position: relative;
+}
+.header .container .head-content .news{
+    color: #fff;
+    background-color: red;
+    padding: 0px 12px;
+    transform: skew(-18deg, 0deg);
+    width: 124px;
+    position: absolute;
+    right: 131px;
+    height: 61px;
+}
+.header .container .head-content .news p{
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+}
+.header .container .head-content .shape{
+    background-color: #fff;
+    height: 61px;
+    padding: 0px 12px;
+    transform: skew(-18deg, 0deg);
+    width: 233px;
+    position: absolute;
+    left: 136px;
+
+}
+.header .container .head-content .sign {
+    margin-right: 871px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 187px;
+    height:72px;
+   
+}
+.header .container .head-content .sign p:hover{
+    color: red;
+    cursor: pointer;
+}
+.header .container .head-content .sign p{
+    border: 2px solid black;
+    padding: 10px 28px;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 16px;}
+    .header .container .head-content .sign .search-icon{
+        background-color: orange;
+        height: 31%;
+        width: 12%;
+        border-radius: 50%;
+        margin: auto;
+}
+.header .container .head-content .sign .search-icon i{
+    margin-top: 5px;
+    margin-left: 4px;
+    font-size: 14px;
+}
+.header .container .head-content .sign p i{
+    color:red;
+
+}
+/* end header */
+/* start title */
+.title{
+    background-image: url(../images/ppo.gov.eg_webcenter_ppoResources_images_inner-header.png.png);
+    background-size: cover;
+    background-position: left;
+     background-color: #110808
+}
+.title .content{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.title .content .logo{
+    width: 50%;
+    text-align: right;
+    margin-right: 81px;
+    margin-top: 20px;
+}
+.title .content .titmenu{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    margin-right: 507px;
+}
+.title .content .titmenu .icon{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    border-radius: 6px;
+    
+}
+.title .content .titmenu .icon a i{
+    margin: 4px;
+    font-size: 19px;
+    color: #fff;
+}
+.title .content .titmenu .p1{
+    display: flex;
+    margin: 23px 0;
+    justify-content: space-between;
+    width: 81px;
+    margin: 43px 9px;
+}
+.title .content .titmenu .p1 i{
+    margin: 16px 3px;
+}
+.title .content .titmenu .p1 p{
+    font-size: 16px;
+    position: relative;
+    font-weight: bold;
+
+}
+.title .content .titmenu .p1:hover  .arm{
+    /* display: block; */
+ 
+  cursor: pointer;
+}
+.title .content .titmenu .p2{
+    margin: 8px 7px;
+}
+.title .content .titmenu .p2 p{
+
+    font-size: 16px;
+    font-weight: bold;
+}
+.title .content .titmenu .p2 .redtx{
+    color: red;
+    font-size: 22px;
+    margin: 9px -41px;
+}
+.linkmenu{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 172px;
+    height: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: 233px;
+    top: 156px;
+    box-shadow: 0 0 1px;
+}
+.arrow-up {
+    top: 145px;
+    width: 0;
+    height: 0;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 11px solid #fff;
+    position: absolute;
+    left: 362px;
+    z-index: 1;
+  }
+.linkmenu a{
+    margin: 9px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    text-align: right;
+}
+.linkmenu a:hover{
+    color:red;
+}
+.arm{
+    display: none;
+}
+.tx:hover{
+ cursor: pointer;
+ color: red;
+}
+/* .title .content .titmenu .p1 p:hover .arm{
+ display: block;
+ 
+  cursor: pointer;
+} */
+
+/* end title */
+.main-content .ds{
+    width: 70%;
+    box-shadow: 0 0 2px 1px rgb(241 225 203);
+    height: 128px;
+    margin: 59px 176px;
+    position: relative;
+}
+.main-content h2{
+    margin: 38px 489px;
+    height: 13px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.main-content .ds p{
+    margin: 28px 60px;
+    text-align: center;
+    width: 80%;
+}
+.main-content .ds  .disc{
+    left: 34px;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: -20px;
+  
+}
+.main-content .ds .discription2{
+    position: absolute;
+    color: #888;
+    top: 34px;
+    font-size: 17px;
+    left: 34px;
+    font-family: 'Cairo', sans-serif;
+font-family: 'Tajawal', sans-serif;
+}
+/* start survices */
+.survises{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-family: 'Cairo', sans-serif;
+font-family: 'Tajawal', sans-serif;
+}
+.survises .sur1{
+    width: 17%;
+    box-shadow: 0 0 3px 0 rgb(189, 161, 161);
+    border-radius: 10px;
+    height: 306px;
+    
+}
+.survises .sur1 img{
+    width:100%;
+    border-radius: 100px 12px;
+}
+.survises .sur1 .h1{
+    margin: 27px 3px;
+    width: 100%;
+    font-size: 21px;
+    text-align: center;
+}
+.survises .sur1 .s1{
+    margin: 11px 41px;
+    width: 59%;
+    height: 13%;
+    color: #fff;
+    background-image: linear-gradient(to left,rgb(163, 56, 56),rgba(95, 121, 204, 0.856));
+    border-radius: 25px;
+    font-size: 17px;
+    
+    border: 0;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+.survises .sur1 .s1:hover{
+    border:1px solid red;
+    cursor: pointer;
+}
+/* end content */
+/* start footer */
+footer{
+    margin-top: 61px;
+    border-top: 8px solid #7777;
+    font-family: 'Cairo', sans-serif;
+font-family: 'Tajawal', sans-serif;
+}
+footer .cont{
+    text-align: center;
+}
+footer .cont .icon{
+    display: inline;
+}
+footer .cont .icon a img{
+    width: 38px;
+    margin: -6px 10px;
+    border-radius: 7px;
+}
+/* log in form */
+.login-form{
+    width: 40%;
+    background-color: rgba(252, 252, 252);
+    box-shadow: 0 0 5px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    height: 360px;
+    position: fixed;
+    top: 25%;
+    left: 32%;
+   animation: form 0.8s linear 0s alternate;
+    display: none;
+    border-radius: 15px;
+    z-index:3;
+}
+.login-form h1{
+    padding: 9px;
+}
+.login-form p{
+    margin: -5px;
+    font-size: 18px;
+}
+.login-form h4{
+    margin-top: 10px;
+    color: red;
+}
+.login-form .usern{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 13px 25px;
+    padding: 5px;
+}
+.login-form .usern .icon{
+    content: "\f406";
+    font-size: 22px;
+    margin: 10px;
+
+}
+input{
+    text-align: right;
+}
+.login-form .usern .un{
+    width: 80%;
+    display: flex;
+    height: 40px;
+    border-radius: 21px;
+    border: 1px solid #000;
+    outline: 0;
+    
+}
+.login-form .usern .un:focus{
+    border:1px solid red;
+}
+.login-form .sub .subm{
+    width: 30%;
+    height: 30px;
+    border: 0;
+    color: skyblue;
+    font-size: 19px;
+    margin: 5px;
+ border-radius: 16px;
+}
+.login-form .sub .subm:hover{
+    cursor: pointer;
+}
+.login-form .err{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 39px;
+}
+.login-form .err .e1:hover ,.login-form .err .e2:hover{
+ color:red;
+ cursor: pointer;
+}
+/* animation */
+@keyframes form {
+  
+    0%   { opacity: 0;}
+   
+    50%  { opacity:0.5;}
+    
+    100% { opacity:1;}
+ 
+  }
+  /* layer */
+  .layer{
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 343%;
+      z-index: 2;
+      background-color: #000;
+      opacity: 0.6;
+    display: none;
+    }
+ .layer .lyb{
+    position: fixed;
+    top: 64px;
+    right: 30px;
+    background: transparent;
+    color: #fff;
+    font-size: 39px;
+    border: 1px solid #fbfbfb;
+    width: 59px;
+    height: 53px;
+    border-radius: 40px;
+    cursor: pointer;
+    OUTLINE: 0;
+ }
+ .layer .lyb:hover{
+
+ }
+/* global */
+button:hover{
+    box-shadow: 0 0 5px 0 rgb(243, 130, 130);
+}

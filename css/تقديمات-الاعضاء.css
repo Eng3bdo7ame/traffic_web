@@ -1,0 +1,247 @@
+body{
+   
+    padding: 0;
+    margin: 0 ;
+  
+}
+.container{
+    width: 90%;
+    margin: auto;
+    
+}
+/* start header */
+.header{
+    background-color: #333;
+    height: 61px;
+    margin: 0 0;
+    border-bottom: 2px solid red;
+    
+}
+.header div .head-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 100%;
+    position: relative;
+}
+.header .container .head-content .news{
+    color: #fff;
+    background-color: red;
+    padding: 0px 12px;
+    transform: skew(-18deg, 0deg);
+    width: 124px;
+    position: absolute;
+    right: 131px;
+    height: 61px;
+}
+.header .container .head-content .news p{
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+}
+.header .container .head-content .shape{
+    background-color: #fff;
+    height: 61px;
+    padding: 0px 12px;
+    transform: skew(-18deg, 0deg);
+    width: 233px;
+    position: absolute;
+    left: 136px;
+
+}
+.header .container .head-content .sign {
+    margin-right: 871px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 187px;
+    height:72px;
+   
+}
+.header .container .head-content .sign p:hover{
+    color: red;
+    cursor: pointer;
+}
+.header .container .head-content .sign p{
+    border: 2px solid black;
+    padding: 10px 28px;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 16px;}
+    .header .container .head-content .sign .search-icon{
+        background-color: orange;
+        height: 31%;
+        width: 12%;
+        border-radius: 50%;
+        margin: auto;
+}
+.header .container .head-content .sign .search-icon i{
+    margin-top: 5px;
+    margin-left: 4px;
+    font-size: 14px;
+}
+.header .container .head-content .sign p i{
+    color:red;
+
+}
+.title{
+    background-image: url(images/ppo.gov.eg_webcenter_ppoResources_images_inner-header.png.png);
+    background-size: cover;
+    background-position: left;
+     background-color: #110808
+}
+.title .content{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.title .content .logo{
+    width: 50%;
+    text-align: right;
+    margin-right: 81px;
+    margin-top: 20px;
+}
+.title .content .titmenu{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    margin-right: 507px;
+}
+.title .content .titmenu .icon{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    border-radius: 6px;
+    
+}
+.title .content .titmenu .icon a i{
+    margin: 4px;
+    font-size: 19px;
+    color: #fff;
+}
+.title .content .titmenu .p1{
+    display: flex;
+    margin: 23px 0;
+    justify-content: space-between;
+    width: 81px;
+    margin: 43px 9px;
+}
+.title .content .titmenu .p1 i{
+    margin: 16px 3px;
+}
+.title .content .titmenu .p1 p{
+    font-size: 16px;
+    position: relative;
+    font-weight: bold;
+
+}
+.title .content .titmenu .p1:hover {
+    
+ 
+  cursor: pointer;
+}
+.title .content .titmenu .p2{
+    margin: 8px 7px;
+}
+.title .content .titmenu .p2 p{
+
+    font-size: 16px;
+    font-weight: bold;
+}
+.title .content .titmenu .p2 .redtx{
+    color: red;
+    font-size: 22px;
+    margin: 9px -41px;
+}
+.linkmenu{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 172px;
+    height: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: 233px;
+    top: 156px;
+    box-shadow: 0 0 1px;
+}
+.arrow-up {
+    top: 145px;
+    width: 0;
+    height: 0;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 11px solid #fff;
+    position: absolute;
+    left: 362px;
+    z-index: 1;
+  }
+.linkmenu a{
+    margin: 9px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    text-align: right;
+}
+.linkmenu a:hover{
+    color:red;
+}
+.arm{
+    display: none;
+}
+.jj{
+    text-align: right;
+    margin-right: 120px;
+    margin-top: 75px;
+    font-size: 20px;
+}
+.dd{
+    text-align: right;
+    margin-right: 120px;
+    margin-top: -20px;
+    color: red;
+    font-weight: bold;
+}
+.gg{
+    text-align: right;
+    margin-right: 120px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+.kk{
+    margin-right: 120px;
+    margin-top: -30px;
+    display: flex;
+    direction: rtl;
+    text-align: right;
+    color: red;
+    margin-right: 120px;
+    line-height: 27.5px;
+    font-weight: bold;
+   
+}
+.kk li:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+footer{
+    margin-top: 61px;
+    border-top: 8px solid #7777;
+    font-family: 'Cairo', sans-serif;
+font-family: 'Tajawal', sans-serif;
+}
+footer .cont{
+    text-align: center;
+}
+footer .cont .icon{
+    display: inline;
+}
+footer .cont .icon a img{
+    width: 38px;
+    margin: -6px 10px;
+    border-radius: 7px;
+}
